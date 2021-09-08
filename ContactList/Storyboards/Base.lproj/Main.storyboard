@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Root View Controller-->
+        <!--Persons List-->
         <scene sceneID="qEw-gg-FZs">
             <objects>
                 <tableViewController id="79N-v4-ueZ" customClass="ContactListViewController" customModule="ContactList" customModuleProvider="target" sceneMemberID="viewController">
@@ -35,7 +35,7 @@
                         </connections>
                     </tableView>
                     <tabBarItem key="tabBarItem" title="List" image="list.dash" catalog="system" id="4lA-yO-Hz5"/>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="tuO-BO-uRk"/>
+                    <navigationItem key="navigationItem" title="Persons List" id="tuO-BO-uRk"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g4b-wK-LQj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -85,7 +85,7 @@
             </objects>
             <point key="canvasLocation" x="-141" y="847"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Persons List-->
         <scene sceneID="RcT-Ml-zrM">
             <objects>
                 <tableViewController id="fYA-L4-QPw" customClass="DetailedContactListViewController" customModule="ContactList" customModuleProvider="target" sceneMemberID="viewController">
@@ -108,7 +108,7 @@
                             <outlet property="delegate" destination="fYA-L4-QPw" id="4EB-At-xUR"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="cJP-Hn-rFb"/>
+                    <navigationItem key="navigationItem" title="Persons List" id="cJP-Hn-rFb"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="abA-TQ-u5M" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

@@ -20,6 +20,7 @@ class ContactPageViewController: UIViewController {
         phoneNumberLabel.text = "Phone number: \n\(person.phoneNumber)"
         eMailLabel.text = "Phone number: \n\(person.eMail)"
         navigationItem.title = person.fullName
+        navigationItem.largeTitleDisplayMode = .never
     }
 
 }
