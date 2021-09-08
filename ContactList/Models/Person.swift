@@ -46,7 +46,7 @@ struct Person {
         return persons
     }
 }
-
+//
 //static func getPerson() -> [Person] {
 //
 //    var persons: [Person] = []
@@ -55,10 +55,14 @@ struct Person {
 //
 //
 //        let person = Person(
-//            firstName: DataManager.shared.firstNames.remove(at: Int.random(in: 0..<DataManager.shared.firstNames.count)),
-//            lastName: DataManager.shared.lastNames.remove(at: Int.random(in: 0..<DataManager.shared.lastNames.count)),
-//            phoneNumber: DataManager.shared.phoneNumbers.remove(at: Int.random(in: 0..<DataManager.shared.phoneNumbers.count)),
-//            eMail: DataManager.shared.eMails.remove(at: Int.random(in: 0..<DataManager.shared.eMails.count))
+//            firstName: DataManager.shared.firstNames
+//                .remove(at: Int.random(in: 0..<DataManager.shared.firstNames.count)),
+//            lastName: DataManager.shared.lastNames
+//                .remove(at: Int.random(in: 0..<DataManager.shared.lastNames.count)),
+//            phoneNumber: DataManager.shared.phoneNumbers
+//                .remove(at: Int.random(in: 0..<DataManager.shared.phoneNumbers.count)),
+//            eMail: DataManager.shared.eMails
+//                .remove(at: Int.random(in: 0..<DataManager.shared.eMails.count))
 //        )
 //        persons.append(person)
 //    }
