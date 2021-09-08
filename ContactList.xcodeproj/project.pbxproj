@@ -56,15 +56,47 @@
 		7B91206326E884810033CCF2 /* ContactList */ = {
 			isa = PBXGroup;
 			children = (
-				7B91206426E884810033CCF2 /* AppDelegate.swift */,
-				7B91206626E884810033CCF2 /* SceneDelegate.swift */,
-				7B91206826E884810033CCF2 /* ViewController.swift */,
-				7B91206A26E884810033CCF2 /* Main.storyboard */,
-				7B91206D26E884850033CCF2 /* Assets.xcassets */,
-				7B91206F26E884850033CCF2 /* LaunchScreen.storyboard */,
-				7B91207226E884850033CCF2 /* Info.plist */,
+				7B91207826E884B10033CCF2 /* App */,
+				7B91207926E884BB0033CCF2 /* ViewControllers */,
+				7B91207A26E884E60033CCF2 /* Storyboards */,
+				7B91207B26E884F70033CCF2 /* Source */,
 			);
 			path = ContactList;
+			sourceTree = "<group>";
+		};
+		7B91207826E884B10033CCF2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				7B91206426E884810033CCF2 /* AppDelegate.swift */,
+				7B91206626E884810033CCF2 /* SceneDelegate.swift */,
+				7B91207226E884850033CCF2 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		7B91207926E884BB0033CCF2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7B91206826E884810033CCF2 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7B91207A26E884E60033CCF2 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				7B91206A26E884810033CCF2 /* Main.storyboard */,
+				7B91206F26E884850033CCF2 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		7B91207B26E884F70033CCF2 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				7B91206D26E884850033CCF2 /* Assets.xcassets */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +320,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J64K7CHM53;
-				INFOPLIST_FILE = ContactList/Info.plist;
+				INFOPLIST_FILE = ContactList/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +339,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J64K7CHM53;
-				INFOPLIST_FILE = ContactList/Info.plist;
+				INFOPLIST_FILE = ContactList/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
