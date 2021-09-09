@@ -23,12 +23,12 @@ class DetailedContactListViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "detailedContactID", for: indexPath)
         var content = cell.defaultContentConfiguration()
-        let contact = person[indexPath.row]
+        
         
         if indexPath.row == 0 {
-            content.text = contact.phoneNumber
+            content.text = person[indexPath.row].phoneNumber
         } else if indexPath.row == 1 {
-            content.text = contact.eMail
+            content.text = person[indexPath.row].eMail
         }
 
         cell.contentConfiguration = content
