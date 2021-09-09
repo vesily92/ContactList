@@ -134,7 +134,6 @@
         <!--Item-->
         <scene sceneID="mQC-I1-6fj">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="YQe-WU-olf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController id="QW1-bx-FZC" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="FrZ-C0-Ifo"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="GV9-Ou-3w1">
@@ -145,16 +144,18 @@
                         <segue destination="79N-v4-ueZ" kind="relationship" relationship="rootViewController" id="Gb4-Kv-xp6"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YQe-WU-olf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-137" y="-752"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="joo-6x-p4J">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="5w0-9W-Rfh" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="5w0-9W-Rfh" customClass="TabBarController" customModule="ContactList" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="Uu4-UX-ok9"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0En-mR-rcY">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>

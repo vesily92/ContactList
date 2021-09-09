@@ -9,10 +9,10 @@ import UIKit
 
 class DetailedContactListViewController: UITableViewController {
     
-    private var contactList = Person.getPerson()
+    var person: [Person]!
     
     override func numberOfSections(in tableView: UITableView) -> Int {
-        contactList.count
+        person.count
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -22,7 +22,7 @@ class DetailedContactListViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "detailedContactID", for: indexPath)
         var content = cell.defaultContentConfiguration()
-        let contact = contactList[indexPath.row]
+        let contact = person[indexPath.row]
         
         if indexPath.row == 0 {
             content.text = contact.phoneNumber
@@ -36,6 +36,6 @@ class DetailedContactListViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        contactList[section].fullName
+        person[section].fullName
     }
 }

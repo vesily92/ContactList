@@ -17,6 +17,7 @@
 		7B91208526E8AB770033CCF2 /* ContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B91208426E8AB770033CCF2 /* ContactListViewController.swift */; };
 		7B91208726E8E3AE0033CCF2 /* ContactPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B91208626E8E3AE0033CCF2 /* ContactPageViewController.swift */; };
 		7B91208926E8F2180033CCF2 /* DetailedContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B91208826E8F2180033CCF2 /* DetailedContactListViewController.swift */; };
+		7B91208F26E9E15A0033CCF2 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B91208E26E9E15A0033CCF2 /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		7B91208426E8AB770033CCF2 /* ContactListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewController.swift; sourceTree = "<group>"; };
 		7B91208626E8E3AE0033CCF2 /* ContactPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactPageViewController.swift; sourceTree = "<group>"; };
 		7B91208826E8F2180033CCF2 /* DetailedContactListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedContactListViewController.swift; sourceTree = "<group>"; };
+		7B91208E26E9E15A0033CCF2 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				7B91208426E8AB770033CCF2 /* ContactListViewController.swift */,
 				7B91208626E8E3AE0033CCF2 /* ContactPageViewController.swift */,
 				7B91208826E8F2180033CCF2 /* DetailedContactListViewController.swift */,
+				7B91208E26E9E15A0033CCF2 /* TabBarController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 				7B91208926E8F2180033CCF2 /* DetailedContactListViewController.swift in Sources */,
 				7B91206526E884810033CCF2 /* AppDelegate.swift in Sources */,
 				7B91206726E884810033CCF2 /* SceneDelegate.swift in Sources */,
+				7B91208F26E9E15A0033CCF2 /* TabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
