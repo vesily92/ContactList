@@ -18,7 +18,8 @@ class DetailedContactListViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         2
     }
-
+    
+    // тут не успел разобраться с захватом нужных значений для каждого контакта
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "detailedContactID", for: indexPath)
         var content = cell.defaultContentConfiguration()

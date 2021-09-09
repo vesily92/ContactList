@@ -66,12 +66,12 @@
 		7B91206326E884810033CCF2 /* ContactList */ = {
 			isa = PBXGroup;
 			children = (
-				7B91207D26E885670033CCF2 /* Models */,
-				7B91207C26E8855A0033CCF2 /* Managers */,
-				7B91207826E884B10033CCF2 /* App */,
 				7B91207926E884BB0033CCF2 /* ViewControllers */,
+				7B91207D26E885670033CCF2 /* Models */,
 				7B91207A26E884E60033CCF2 /* Storyboards */,
+				7B91207826E884B10033CCF2 /* App */,
 				7B91207B26E884F70033CCF2 /* Source */,
+				7B91207C26E8855A0033CCF2 /* Managers */,
 			);
 			path = ContactList;
 			sourceTree = "<group>";
