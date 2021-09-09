@@ -9,6 +9,11 @@ import UIKit
 
 class TabBarController: UITabBarController {
     
+    
+    // Сегодня сообразил, что вчера весь вечер пытался найти несуществующий класс "UITapBarController" (через Tap, а не Tab)
+    // В такие моменты становится и смешно и грустно)
+    
+    
     private var person = Person.getPerson()
     
     override func viewDidLoad() {
