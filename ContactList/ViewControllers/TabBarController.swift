@@ -14,7 +14,7 @@ class TabBarController: UITabBarController {
     // В такие моменты становится и смешно и грустно)
     
     
-    private var person = Person.getPerson()
+    private var person = Person.getPersons()
     
     override func viewDidLoad() {
         super.viewDidLoad()

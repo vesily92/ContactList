@@ -18,7 +18,7 @@ class ContactPageViewController: UIViewController {
         super.viewDidLoad()
         
         phoneNumberLabel.text = "Phone number: \n\(person.phoneNumber)"
-        eMailLabel.text = "Phone number: \n\(person.eMail)"
+        eMailLabel.text = "Phone number: \n\(person.email)"
         navigationItem.title = person.fullName
         navigationItem.largeTitleDisplayMode = .never
     }

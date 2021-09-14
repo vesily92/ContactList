@@ -19,16 +19,16 @@ class DetailedContactListViewController: UITableViewController {
         2
     }
     
-    // тут не успел разобраться с захватом нужных значений для каждого контакта
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "detailedContactID", for: indexPath)
         var content = cell.defaultContentConfiguration()
         
-        
         if indexPath.row == 0 {
-            content.text = person[indexPath.row].phoneNumber
-        } else if indexPath.row == 1 {
-            content.text = person[indexPath.row].eMail
+            content.text = person[indexPath.section].phoneNumber
+            content.image = UIImage(systemName: Contacts.phone.rawValue)
+        } else {
+            content.text = person[indexPath.section].email
+            content.image = UIImage(systemName: Contacts.email.rawValue)
         }
 
         cell.contentConfiguration = content
